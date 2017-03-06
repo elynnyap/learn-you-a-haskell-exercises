@@ -19,10 +19,10 @@ data Colour = Red | Orange | Yellow | Green | Blue | Indigo | Violet
  - The Colour typeclass is of type Ord
  - What is the "first" (or least) colour
  -}
-firstColour = undefined
+firstColour = Red
 
 -- List the colours in reverse order
-reverseColourOrder = undefined
+reverseColourOrder = [Violet, Indigo, Blue, Green, Yellow, Orange, Red]
 
 {-
  - Mix two colours together, to produce the average value of the two.
